@@ -1,0 +1,29 @@
+{
+  "name": "front.page.one",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.entry.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "front build --mode production",
+    "build": "front build",
+    "start": "front build --server --with-links --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/multirepo-demo/front.page.one.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/multirepo-demo/front.page.one/issues"
+  },
+  "homepage": "https://github.com/multirepo-demo/front.page.one#readme",
+  "devDependencies": {
+    "front.tools": "github:multirepo-demo/front.tools"
+  },
+  "dependencies": {
+    "compare": "^2.0.0",
+    "front.common": "github:multirepo-demo/front.common"
+  }
+}
